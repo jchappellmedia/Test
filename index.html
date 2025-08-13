@@ -24,6 +24,19 @@
             padding: 0 20px;
         }
 
+        /* Top Logo Section */
+        .top-logo {
+            width: 100%;
+            text-align: center;
+            padding: 20px 0;
+            background: #f8f9fa;
+        }
+
+        .top-logo img {
+            max-width: 300px;
+            height: auto;
+        }
+
         /* Top Image Section */
         .top-image {
             width: 100%;
@@ -271,6 +284,10 @@
 
         /* Responsive */
         @media (max-width: 768px) {
+            .top-logo img {
+                max-width: 200px;
+            }
+            
             .top-image img {
                 height: 250px;
             }
@@ -306,6 +323,11 @@
     </style>
 </head>
 <body>
+    <!-- Top Logo Section -->
+    <section class="top-logo">
+        <img src="Jacuzzi.png" alt="Jacuzzi" />
+    </section>
+
     <!-- Top Image Section -->
     <section class="top-image">
         <img src="chi-yoga.jpeg" alt="Energy and Balance - Chi Mastery" />
